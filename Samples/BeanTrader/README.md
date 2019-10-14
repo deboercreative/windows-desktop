@@ -45,7 +45,7 @@ The general steps to port from .NET Framework to .NET Core include:
     1. Beware of NotSupportedExceptions. [Analyzers](https://github.com/dotnet/platform-compat) exist to identify APIs that may fail.
     1. Look for any other differences that manifest at runtime (such as outdated app.config sections).
 
-## Useful Links
+## Useful Links 
 
 * [Intro to .NET Core 3](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-core-3-0)
 * [.NET Core 3 Migration Guidance](https://github.com/dotnet/samples/tree/master/wpf)
